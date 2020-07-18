@@ -1,0 +1,73 @@
+.about-us h5{
+     font-size: 1rem;
+ }
+.about-us .card-header {
+    padding: .60rem 1.25rem;
+    background-color: #e6e6e6;
+    border-top: 1px solid #d9d9d9;
+    border: 0 none;
+    box-shadow: none;
+}
+.about-us .card-body{
+    padding: 1rem;
+}
+
+.about-us .active a h5 {
+    color: #fff !important;
+}
+.about-us .active a>h5>i {
+    background: #F47115;
+    color: #fff;
+}
+.about-us a i {
+    width: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    margin-top: -10px;
+    text-align: center;
+    margin-right: -20px;
+    background: #c9c9c9;
+    margin-bottom: -9px;
+}
+.about-us .active {
+    background: #1f1f20;
+}
+.about-us .card+.card{
+    margin-top: 0;
+    border-top: 1px solid #d9d9d9;
+}
+#middle {
+    background: #f2f2f2;
+}
+
+.skill h2 {
+    margin-bottom: 25px;
+}
+
+.progress-wrap {
+    position: relative;
+}
+
+.progress .color1,
+.progress .color1 .bar-width {
+    background: #2d7da4;
+}
+
+.progress .color2,
+.progress .color2 .bar-width {
+    background: #6aa42f;
+}
+
+.progress .color3,
+.progress .color3 .bar-width {
+    background: #ffcc33;
+}
+
+.progress .color4,
+.progress .color4 .bar-width {
+    background: #db3615;
+}
+.md-accordion .card a:not(.collapsed) .rotate-icon {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

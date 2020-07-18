@@ -1,0 +1,60 @@
+.camera_wrap .camera_pag .camera_pag_ul {
+    text-align: center;
+    top: -100px;
+    position: relative;
+}
+.slider_area .slider_inner .camera_caption {
+    height: 100%;
+}
+.camera_wrap{
+    margin-bottom: 0px !important;
+}
+.camera_caption > div {
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+
+}
+.pt-6{
+    padding-top: 10rem;
+}
+a.btn:hover {
+    color: #5D5D5D !important;
+    background: #ffffff !important;
+    border: 1px solid #5D5D5D !important;
+}
+.slider_area .slider_inner .camera_caption div a {
+    width: 150px;
+    text-align: center;
+    background: #F47115;
+    display: block;
+    text-shadow: none;
+    margin: 0 auto;
+    outline: none !important;
+    box-shadow: none;
+    border: 0;
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+    padding: 1rem;
+    font-size: 14pt;
+}
+.slider_area .slider_inner .camera_caption div {
+    text-transform: inherit;
+
+}
+.slider_area .slider_inner .camera_caption div a::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    right: 0;
+    transform: scaleY(0);
+    transform-origin: 50%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}

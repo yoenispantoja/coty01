@@ -1,0 +1,35 @@
+
+#services {
+    background: #000 url(../../assets/images/services/bg_services.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#services .lead,
+#services h2 {
+    color: #fff;
+}
+
+.services-wrap {
+    padding: 40px 18px;
+    background: #fff;
+    border-radius: 4px;
+    margin: 0 0 40px;
+    height: 150px;
+}
+.services-wrap h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.services-wrap img{
+    margin-right: 20px;
+}
+.media:hover,.media h4:hover{
+    background: #F47115;
+    color:#ffffff !important;
+    transition: color 300ms, background-color 300ms;
+}
+

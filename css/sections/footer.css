@@ -1,0 +1,87 @@
+.footer{
+    background: black !important;
+}
+
+.footer-text{
+     font-family: "Myriad Pro Regular";
+     font-size: 14px;
+     color: #ffffff;
+ }
+.footer p{
+    font-family: "Myriad Pro Regular";
+    font-size: 14px;
+}
+.footer h3{
+    font-family: "Acme";
+    color: #F47115;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.footer-list {
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+}
+.footer-container .links .footer-list li a:hover i{
+    left: 8px;
+}
+.footer-container .links .footer-list li a:hover{
+    color: #F47115;
+}
+.footer-container .links .footer-list li a {
+    font-size: 14px;
+     color: #fefefe;
+}
+address h5 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+}
+address{
+    color:#ffffff;
+    font-family: "Myriad Pro Regular";
+}
+.footer .copyright{
+    background: #2e2e2e;
+}
+.social {
+    text-align: right;
+}
+
+.social-share {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.social-share li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.fa::before, .fab::before {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+ul.social-share li a i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #404040;
+}
+.top-number i{ width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #404040;}
+
+ul.social-share li a i:hover {
+    background: #F47115 !important;
+    color: #fff;
+    transition: color 300ms, background-color 300ms;
+}

@@ -1,0 +1,117 @@
+.banner_area {
+    background: url("../../assets/images/partners/partner_bg.png") no-repeat fixed;
+    background-attachment: scroll;
+    background-size: auto;
+    background-size: cover;
+    height: 50vh;
+}
+.texto-encabezado h1{
+    margin-top: 4rem;
+    text-align: center;
+}
+.ruta {
+    background: #F47115;
+
+    
+}
+.ruta a{
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+.ruta a:hover {
+    text-decoration: none;
+    color: #000000;
+
+}
+.paginas-internas .ruta a {
+    color: #fff !important;
+    text-decoration: underline;
+}
+
+.form-group {
+     margin-bottom: 2rem;
+
+ }
+.form-group a{
+    color: #ffffff !important;
+
+}
+.form-group a:hover{
+    color: #ffffff;
+    background: #000000;
+
+}
+
+.form-control {
+    font-size: 1rem;
+    color: #F47115 !important;
+    font-family: "DinR";
+    border: 1px solid #F47115;
+
+}
+.kt-quick-search .form-control {
+    border: 0;
+    background: none;
+    outline: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #575962;
+    background-color: transparent;
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.kt-quick-search .input-group-prepend {
+    background-color: transparent;
+}
+
+.kt-quick-search .input-group-prepend .input-group-text {
+    background-color: transparent;
+    border: 0;
+}
+
+.input-group > .input-group-prepend > .input-group-text {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+input:focus, input.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: 1px solid #F47115;
+}
+select:focus, select.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: 1px solid #F47115;
+}
+textarea:focus, textarea.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: 1px solid #F47115;
+}
+.input-border::placeholder {
+    color:#F47115
+}
+
+.input-border::-webkit-input-placeholder {
+    color:#F47115;
+}
+.input-border::-moz-placeholder {
+    color: #F47115;
+}
+.input-border:-ms-input-placeholder {
+    color:#F47115;
+}
+.input-border:-moz-placeholder {
+    color: #F47115;
+}
+
