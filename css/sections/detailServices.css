@@ -1,12 +1,14 @@
 .banner_area {
     background: url("../../assets/images/partners/partner_bg.png") no-repeat fixed;
-    background-attachment: scroll;
-    background-size: auto;
+    height: 40vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+
 }
 .texto-encabezado h1{
-    margin-top: 4rem;
+    margin-top: 3.50rem;
     text-align: center;
 }
 .ruta {
