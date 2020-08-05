@@ -45,6 +45,7 @@ jQuery(function($) {
 
     });
 
+
     // al hacer click, animar el scroll hacia arriba
     $('.scroll-to-top').click(function(e) {
 
