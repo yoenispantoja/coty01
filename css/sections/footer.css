@@ -1,11 +1,12 @@
 .footer{
-    background: black !important;
+    background: #ffffff !important;
+    border-top: 8px solid #000000;
 }
 
 .footer-text{
      font-family: "Myriad Pro Regular";
      font-size: 14px;
-     color: #ffffff;
+     color: #000000; 
  }
 .footer p{
     font-family: "Myriad Pro Regular";
@@ -36,10 +37,10 @@
 address h5 {
     font-weight: 700;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
 }
 address{
-    color:#ffffff;
+    color:#000000;
     font-family: "Myriad Pro Regular";
 }
 .footer .copyright{
@@ -74,6 +75,10 @@ ul.social-share li a i{
     height: 30px;
     border-radius: 50%;
     background: #404040;
+}
+ul.social-share li a {
+   
+  color: #ffffff;
 }
 .top-number i{ width: 30px;
     height: 30px;
