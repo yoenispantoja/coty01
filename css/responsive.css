@@ -31,12 +31,13 @@
 /* xs */
 @media (max-width: 767px) {
   body > section {
-    padding: 10px 0;
+    padding: 60px 0;
     padding-bottom: 10px;
   }
   .banner_area {
     height: 20vh;
   }
+  
 
 
 }

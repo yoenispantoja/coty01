@@ -343,7 +343,9 @@ body>section {
 .cabezalFeature {
     border-bottom: 1px solid #f47115;
 }
-
+.overlay-video {    
+    height: 100vh;    
+}
 .ancla:before {
     margin-top: 125px;
     height: 580px;
