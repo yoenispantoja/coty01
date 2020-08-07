@@ -18,12 +18,11 @@
     text-decoration: underline;
 }
 .banner_area {
-    background: url("../../assets/images/partners/partner_bg.png") no-repeat fixed;
-    height: 40vh;
-    background-attachment: fixed;
+    background: url("../../assets/images/slider/bannerServices.jpg") no-repeat;
+    height: 40vh;    
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;    
 
 }
 .texto-encabezado h1{
